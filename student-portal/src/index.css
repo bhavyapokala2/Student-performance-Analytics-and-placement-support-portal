@@ -1,0 +1,25 @@
+/* --- index.css --- */
+body {
+  margin: 0;
+  padding: 0;
+  /* Use a professional, clean font like Inter or Segoe UI */
+  font-family: 'Inter', 'Segoe UI', sans-serif; 
+  -webkit-font-smoothing: antialiased;
+
+  color: #1a202c; /* Dark text */
+  /* Light attractive mesh gradient background */
+  background-color: #f3e8ff; /* Fallback light purple */
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(270, 60%, 97%, 1) 0px, transparent 50%),
+    radial-gradient(at 50% 0%, hsla(260, 50%, 96%, 1) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(280, 50%, 96%, 1) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, hsla(270, 50%, 95%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(265, 50%, 96%, 1) 0px, transparent 50%);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+html {
+  color: #1a202c;
+}
+

@@ -1,0 +1,42 @@
+/* --- App.css --- */
+
+/* 1. Portal Heading (Dark Grey/Blue) */
+.main-heading {
+  color: #000000; /* Black for main portal title */
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* 2. Attractive Glass Card (White Overlay) */
+.glass-card, .login-wrapper {
+  background: rgba(255, 255, 255, 0.9); /* Solid white base */
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); /* Very subtle shadow */
+}
+
+/* 3. Primary Accents (Matching the "XYZ" Logo Pink) */
+.login-btn {
+  background: #ff8a80; /* Coral/Peach pink from the logo */
+  color: #ffffff;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: #ff7b70;
+  transform: scale(1.02);
+}
+
+/* 4. Inputs (Matching the "Type a message" bar) */
+.standard-text {
+  background-color: #edf2f7; /* Very light grey/blue */
+  border: none;
+  border-radius: 25px; /* Rounded pill shape */
+  padding: 15px 20px;
+  color: #2d3748; /* Dark text for high contrast */
+}
+
+.standard-text::placeholder {
+  color: #a0aec0; /* Soft grey for placeholder text */
+}

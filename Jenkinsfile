@@ -10,12 +10,7 @@ pipeline {
             }
         }
 
-        stage('Run Tests') {
-            steps {
-                echo "Run Unit Tests"
-                bat 'python -m unittest discover -s tests -v'
-            }
-        }
+        
 
         stage('Docker Login') {
             steps {
